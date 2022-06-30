@@ -16,6 +16,6 @@ jobs:
       - name: build storybook
         run: npm run build-storybook
       - name: publish storybook
-        run: npx gh-pages -d storybook-static"
+        run: npx gh-pages -d storybook-static
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
